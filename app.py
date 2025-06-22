@@ -41,7 +41,7 @@ class CVAE(nn.Module):
 # -------------------------------------
 st.set_page_config(page_title="Digit Image Generator")
 st.title("🧠 Handwritten Digit Image Generator")
-st.write("Generate synthetic MNIST-like images using your own trained model.")
+st.write("Generate 5 diffrent synthetic MNIST-like images using my own trained model.")
 
 # Select digit
 digit = st.selectbox("Choose a digit to generate (0–9):", list(range(10)))
